@@ -2,3 +2,5 @@ version: '3.6'
 services:
   app:
     build: .
+    volumes:
+      - ./.ssh:/root/.ssh
