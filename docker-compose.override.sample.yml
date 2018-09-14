@@ -1,0 +1,6 @@
+version: '3.6'
+services:
+  app:
+    command: '*:2222:mysql.example.com:3306 user@example.com'
+    ports:
+      - 2222:2222
